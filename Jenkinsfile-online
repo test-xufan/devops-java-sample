@@ -10,7 +10,16 @@ pipeline {
     }
 
     environment {
+      //  DOCKER_CREDENTIAL_ID = 'dockerhub-id'
+      //  REGISTRY = 'docker.io'
+      //  DOCKERHUB_NAMESPACE = 'test20210831'
+      //  GITHUB_ACCOUNT = 'test-xufan'
+      //  APP_NAME = 'devops-java-sample'
+        
+        
         DOCKER_CREDENTIAL_ID = 'dockerhub-id'
+        GITHUB_CREDENTIAL_ID = 'github-id'
+        KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
         REGISTRY = 'docker.io'
         DOCKERHUB_NAMESPACE = 'test20210831'
         GITHUB_ACCOUNT = 'test-xufan'
